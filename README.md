@@ -1,7 +1,8 @@
 # Grammar Correction
-### Evaluating Pre-trained Models
+## Training new model
 
-Download a pre-trained model along with its vocabularies:
+### Pre-processing data
+Pre-process and binarize IWSLT dataset:
 ```
-curl https://dl.fbaipublicfiles.com/fairseq/models/wmt14.v2.en-fr.fconv-py.tar.bz2 | tar xvjf -
+
 ```
