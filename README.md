@@ -2,7 +2,8 @@
 ## Training new model
 
 ### Pre-processing data
-Pre-process and binarize IWSLT dataset and write binarized data that can be used for model training to path: ```data-bin/iwslt14.tokenized.de-en```
+Pre-process IWSLT dataset and write binarized data that can be used for model training to path: 
+```data-bin/iwslt14.tokenized.de-en```
 
 ```
 > cd examples/translation/
