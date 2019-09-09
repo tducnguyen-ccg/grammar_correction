@@ -2,8 +2,7 @@
 ## Training new model
 
 ### Pre-processing data
-Pre-process IWSLT dataset and write binarized data that can be used for model training to path: <br>
-_data-bin/iwslt14.tokenized.de-en_
+Pre-process and binarize the IWSLT dataset
 
 ```
 > cd examples/translation/
@@ -14,6 +13,10 @@ _data-bin/iwslt14.tokenized.de-en_
     --trainpref $TEXT/train --validpref $TEXT/valid --testpref $TEXT/test \
     --destdir data-bin/iwslt14.tokenized.de-en
 ```
+
+Note that the binarized data that can be used for model training is written to path: <br>
+_data-bin/iwslt14.tokenized.de-en_
+
 
 ### Training the IWSLT 2014 dataset:
 ```
