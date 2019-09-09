@@ -2,7 +2,9 @@
 ## Training new model
 
 ### Pre-processing data
-Pre-process and binarize the IWSLT dataset
+Fairseq contains example pre-processing scripts for several translation datasets: IWSLT 2014 (German-English), WMT 2014 (English-French) and WMT 2014 (English-German), etc.
+
+To pre-process and binarize the IWSLT dataset:
 
 ```
 > cd examples/translation/
@@ -15,7 +17,7 @@ Pre-process and binarize the IWSLT dataset
 ```
 
 Note that the binarized data that can be used for model training is written to path: <br>
-_data-bin/iwslt14.tokenized.de-en_
+_./data-bin/iwslt14.tokenized.de-en_
 
 
 ### Training the IWSLT 2014 dataset:
