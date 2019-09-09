@@ -17,7 +17,7 @@ To pre-process and binarize the IWSLT dataset:
 ```
 
 Note that the binarized data that can be used for model training is written to path: <br>
-_./data-bin/iwslt14.tokenized.de-en_
+_"./data-bin/iwslt14.tokenized.de-en"_
 
 
 ### b) Training the IWSLT 2014 dataset:
@@ -39,4 +39,4 @@ Generate translations using fairseq-generate (for binarized data) or fairseq-int
     --batch-size 128 --beam 5
 ```
 
-Note that this task uses the best checkpoint from the training process, which is the _checkpoint_best.pt_ file
+Note that this task uses the best checkpoint from the training process, which is the _"checkpoint_best.pt"_ file
