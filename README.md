@@ -28,11 +28,15 @@ _./data-bin/iwslt14.tokenized.de-en_
     --arch fconv_iwslt_de_en --save-dir checkpoints/fconv
 ```
 
+Note that checkpoint files are stored in ./checkpoints/fconv directory, which is newly created by the mkdir command
+
 ### c) Generation:
-Once your model is trained, you can generate translations using fairseq-generate (for binarized data) or fairseq-interactive (for raw text):
+Generate translations using fairseq-generate (for binarized data) or fairseq-interactive (for raw text) with trained model:
 
 ```
 > fairseq-generate data-bin/iwslt14.tokenized.de-en \
     --path checkpoints/fconv/checkpoint_best.pt \
     --batch-size 128 --beam 5
 ```
+
+Note that this task uses the best checkpoint from the training process, which is the _checkpoint_best.pt_ file
