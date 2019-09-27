@@ -26,7 +26,7 @@ url: https://drive.google.com/open?id=17s-TZiM6ilQ-SHklxTUun2Jdgg8B9zS3
     pip install --editable
     sh train.sh \${device_id} \${experiment_name}
     
- or: Move all of file in ./out/data_bin into ./out/data_raw
+ or: Move all of files in ./out/data_bin into ./out/data_raw
  
  Check file checkpoint_last.pt in folder ./models_pretrain. If you don't have, please change filename of checkpoint9.pt from download above into checkpoint_last.pt.
  
